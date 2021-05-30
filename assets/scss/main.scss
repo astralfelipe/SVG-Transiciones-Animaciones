@@ -5,12 +5,26 @@ assets index.html
 ->luego de verificar, colocaremos el comando 
 sass --watch assets/scss/main.scss:assets/css/style.css 
 */;
+
 //abstracts
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
 
 //vendor
+@import "vendor/Bootstrap4.6/bootstrap.scss";
 
 //base
 @import "base/reset";
+@import "base/fonts";
+@import "base/typography";
+
+//components
+@import "components/button";
+@import "components/input";
+
+//layout
+
+
+//pages
+@import "pages/grid";
