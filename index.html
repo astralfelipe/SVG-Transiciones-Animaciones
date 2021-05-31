@@ -3,12 +3,141 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mi emprendimiento web</title>  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<h1> Hola Mundo </h1>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!--<a class="navbar-brand" href="#">Navbar</a>-->
+  <!--Agregar logo svg-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Acerca de<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Cursos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Precios</a>
+      </li>      
+    </ul>
+  </div>
+</nav>
+
+<!--Fin Navbar-->
+
+<!--Header-->
+
+<!--Fin Header-->
+
+<!--Principal-->
+
+<main class="main">
+  <section class="main__section1">
+    <div class="main__img1">
+      <img src="assets/imagenes/html-y-cssb-.jpg" class="img-fluid" alt="">
+    </div>
+    <div class="main__title">HTML y CSS para principiantes</div>
+    <div class="main__info">HTML y CSS son dos herramientas importantes para dar inicio en el mundo del desarrollo web.
+      Por lo tanto en este curso aprenderás todo sobre HTML y CSS, desde lo más básico hasta un nivel intermedio, logrando
+      desarrollar tu primera página web responsiva, sin la necesidad de aplicar librerías externas para CSS.
+    </div>
+    <div class="main__info">Instructor: Manuel González</div>
+    <div class="main__favi">
+      <i class="far fa-thumbs-up">1</i>
+      <i class="far fa-comments">9</i>
+      <i class="far fa-eye">9</i>
+      <i class="fas fa-link">0</i>
+    </div>
+
+    <br>
+    <div class="main__img2">
+      <img src="assets/imagenes/sass.png" class="img-fluid" alt="">
+    </div>
+    <div class="main__title">Estilos con SASS</div>
+    <div class="main__info">SASS es una herramienta importante hoy en día para todo desarrollador web, ya que
+      permite crear estilos más ordenados, eficientes y con menos líneas de código. Por ello, en este curso
+      aprenderás todo lo necesario para crear hojas de estilos desde la sintaxis de SCSS, implementando técnicas
+      propias de SAAS.
+    </div>
+    <div class="main__info">Instructor: Manuel González</div>
+    <div class="main__favi">
+      <i class="far fa-thumbs-up">1</i>
+      <i class="far fa-comments">9</i>
+      <i class="far fa-eye">8</i>
+      <i class="fas fa-link">5</i>
+    </div> 
+  </section>
+
+  <section class="main__section2">
+    <div class="main__img3">
+      <img src="assets/imagenes/web-development.png" class="imagen3" alt="">
+    </div>
+    <div class="main__cursos">CURSOS 2020 LTDA</div>
+    <div class="main__rrss">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-github"></i>
+    </div>
+    <div class="main__info">Cursos 2020 Ltda, es una empresa especialista en capacitaciones de personal en Desarrollo Web.
+      Partiendo desde lo más básico de HTML y CSS, hasta lo más complejo de SASS y Javascript. Igualmente se ofrecen cursos más 
+      especializados para el Backend, implementación de frameworks para el frontend, entre otros.
+    </div>
+    <div class="main__more">Más cursos</div>
+    <div class="main__listado">
+      <ul class="main__ul">
+        <li>Analítica Web (3)</li>
+        <li>Diseño Web (4)</li>
+        <li>Desarrollo BackEnd (9)</li>
+        <li>Seguridad Informática (14)</li>
+        <li>Social Media (7)</li>
+        <li>SEO (8)</li>
+        <li>UI/UX (3)</li>
+        <li>Javascript (5)</li>
+        <li>VueJS (1)</li>
+      </ul>
+    </div>
+
+    <!--INSERTAR UN DIV PARA HACER LA ANIMACIÓN-->
+
+  </section>
+
+
+</main>
+
+
+<!--Fin Principal-->
+
+<!--Footer-->
+<footer class="footer" class="text-center py-1">
+  <div class="row container m-auto">
+      <div class="col-12 col-sm-6">
+          <h4 class="footer__title">© 2021 | Todos los derechos reservados</h4>
+      </div>
+      <div class="col-12 col-sm-6 mt-4 mt-sm-0" id="element_ft">
+          <ul classs="footer__list">
+            <li>Legal</li>
+            <li>Sobre Anuncios</li>
+            <li></li>
+          </ul>
+          
+          <input type="text" class="footer__input" name="e-mail" placeholder=""><button class="footer__button">Enviar</button>
+          
+      </div>
+  </div>
+
+
+</footer>
+
+<!--Fin Footer-->
+
   
 </body>
 </html>
