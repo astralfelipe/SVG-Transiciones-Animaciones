@@ -1,0 +1,56 @@
+.navbar{
+    background-color: $black;
+
+    &__logo{
+        display: flex;
+        align-content: flex-start;
+
+    }
+
+   // &__menu{
+      //  display: flex;
+       // align-content: flex-end;
+        
+
+   // }
+
+    &__ul{
+        list-style: none;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        color: $white;
+        font-size: $medium;
+        font-family: $primary-font;
+        font-weight: $primary-font-bold;
+    }
+
+    &__list{
+
+        //@include respond-to($bp-sm) {
+         //   display:none
+       // }
+
+
+        margin: 10px;
+
+        a{
+            color: $white;
+        }
+    }
+
+    &__favi{
+
+
+        @include respond-to($bp-md) {
+            display: none;
+        }
+
+    }
+
+    &__favi:hover{
+        background: $orange;
+
+    }
+}
+

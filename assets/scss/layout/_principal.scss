@@ -1,0 +1,113 @@
+.main{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+
+    &__section1{
+        border: 1px solid $black;
+        padding: 20px 15px;
+
+    }
+
+    &__img1{
+
+    }
+
+    &__title{
+        color: $black;
+        font-size: $x-large;
+        font-family: $primary;
+        font-weight: $primary-font-bold;
+    }
+
+    &__info{
+        color: $black;
+        font-size: $medium;
+        font-family: $primary;
+        font-weight: $primary-font-regular;
+    }
+
+    &__favi{
+
+    }
+
+    &__img2{
+        border: 1px solid $black;
+        padding: 20px 15px; 
+        
+
+    }
+
+    &__section2{
+        display: flex;
+        align-items: center;
+    }
+
+    &__imagen3{
+        //width: 50px;
+        //height: 50px;
+        background-size: cover;
+        border: 1px solid $very-dark-gray;
+        border-radius: 50%;
+
+        
+
+    }
+
+    &__cursos{
+        color: $black;
+        font-size: $large;
+        font-family: $primary;
+        font-weight: $primary-font-bold;
+        text-align: center;
+    }
+
+    &__rrss{
+        display: flex;
+        justify-content: center;
+       
+
+    }
+
+    &__more{
+        background: $very-dark-gray;
+        color: $white;
+        font-size: $large;
+        font-family: $primary;
+        font-weight: $primary-font-bold;
+        text-align:center;
+        
+    }
+
+    &__listado{
+
+    }
+}
+
+.web-cage{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__mover_di{
+        position: absolute;
+        animation: move 2s ease-in-out 1s infinite;
+
+    }
+
+    &__rotar{
+        position: absolute;
+        animation: 3s rotate linear infinite;
+        transform-origin: 80% 80%;
+
+    }
+}
+
+.cursos{
+    border: 1px dotted $very-dark-gray;
+}
+
+
+

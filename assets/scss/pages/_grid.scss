@@ -1,0 +1,28 @@
+.grid_basic{
+    @include respond-to($bp-sm) {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .navbar{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .header{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .main{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .footer{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}

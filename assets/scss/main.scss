@@ -18,12 +18,17 @@ sass --watch assets/scss/main.scss:assets/css/style.css
 @import "base/reset";
 @import "base/fonts";
 @import "base/typography";
+@import "base/animation";
 
 //components
 @import "components/button";
 @import "components/input";
 
 //layout
+@import "layout/navbar";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/principal";
 
 
 //pages

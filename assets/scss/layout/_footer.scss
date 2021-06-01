@@ -1,0 +1,64 @@
+footer{
+    background: $black;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    &__copy{
+        text-align: left;
+        color: $white;
+        font-size: $medium;
+        font-family: $secondary-font;
+        font-weight: $secondary-font-regular;
+        flex-grow: 1;
+
+    }
+
+    &__content{
+
+    }
+
+    &__ul{
+        list-style: none;
+        //display: flex;
+        //justify-content: center;
+
+        color: $white;
+        font-size: $medium;
+        font-family: $secondary-font;
+        font-weight: $secondary-font-regular;
+
+    }
+
+    &__list{
+
+        display: inline-block;
+
+        a{
+            color: $white;
+        }
+        margin: 10px;
+        
+    }
+
+    &__input{
+        
+    }
+
+    &__input:hover{
+        background: $tangerine;
+    }
+
+    &__button{
+        background: $tangerine;
+
+    }
+
+    &__button:hover{
+        background: $white;
+    }
+}
